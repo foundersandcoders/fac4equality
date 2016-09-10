@@ -1,5 +1,11 @@
-# FAC 4 Equality
+# Queer CouchSafe
 
-This is a repo for the Founders and Coders entry to the [hack4equality](http://hack4equality2016-onlineonly.devpost.com/) hackathon. We'll be submitting an online demo on September 25.
+This is the Founders and Coders entry to the [hack4equality](http://hack4equality2016-onlineonly.devpost.com/) hackathon. Gitter chatroom [here](https://gitter.im/fac4equality/Lobby) for those who are interested.
 
-Gitter chatroom [here](https://gitter.im/fac4equality/Lobby) for those who are interested.
+## What is this?
+
+Queer CouchSafe facilitates crisis couchsurfing for LGBTQ+ homeless.
+
+## The Stack
+
+This is built in Node.js using Hapi.js and Handlebars. SASS on the frontend.
