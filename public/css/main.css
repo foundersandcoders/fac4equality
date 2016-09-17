@@ -23,7 +23,6 @@ h3 {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  position: fixed;
   background-position: center center; }
 
 .card.horizontal .card-image {
@@ -33,7 +32,7 @@ h3 {
 
 .large.large {
   height: 80vh; }
-  
+
 nav {
   background-color: #88C376 !important; }
 
