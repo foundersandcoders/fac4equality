@@ -44,4 +44,7 @@ table {
 button {
   -webkit-appearance: none; }
 
+.card .large {
+  height: 80vh; }
+
 /*# sourceMappingURL=main.css.map */
