@@ -8,12 +8,13 @@ h3 {
   font-size: 2rem; }
 
 .landing-image-wrapper {
-  background-image: url(../assets/landingBG.jpg);
+  background-image: url(../assets/landingBG.png);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  position: fixed; }
+  position: fixed;
+  background-position: center center; }
 
 .card.horizontal .card-image {
   max-width: 33%; }
@@ -24,7 +25,8 @@ nav {
   background-color: #88C376 !important; }
 
 nav .brand-logo {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
+  letter-spacing: 1px;
   font-size: 1.4rem !important;
   padding-left: 2vw !important; }
 
