@@ -9,8 +9,8 @@
   "scripts": {
     "test": "node test/*",
     "sass": "sass --watch public/css/sass/main.scss:public/css/main.css",
-    "startmon": "nodemon index.js",
-    "start": "node index.js"
+    "startmon": "nodemon lib/index.js",
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
