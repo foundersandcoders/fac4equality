@@ -3,7 +3,8 @@ nav {
 }
 
 nav .brand-logo {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: $lato!important;
+  letter-spacing: 1px;
   font-size: 1.4rem !important;
   padding-left: 2vw !important;
 }
