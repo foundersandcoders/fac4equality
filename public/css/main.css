@@ -1,8 +1,18 @@
 body {
-  background-color: #EDEFED; }
+  background-color: #EDEFED;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #222; }
+
+main {
+  min-height: 100%; }
 
 a {
   color: #222; }
+
+h1 {
+  text-align: center; }
 
 h3 {
   font-size: 2rem; }
@@ -13,7 +23,6 @@ h3 {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  position: fixed;
   background-position: center center; }
 
 .card.horizontal .card-image {
@@ -23,7 +32,7 @@ h3 {
 
 .large.large {
   height: 80vh; }
-  
+
 nav {
   background-color: #88C376 !important; }
 
@@ -32,5 +41,13 @@ nav .brand-logo {
   letter-spacing: 1px;
   font-size: 1.4rem !important;
   padding-left: 2vw !important; }
+
+.heart {
+  color: #fff;
+  text-align: center; }
+
+footer.page-footer {
+  margin-top: 60px;
+  background-color: #88C376; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,9 +1,21 @@
 body {
   background-color: $background-color-grey;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #222;
+}
+
+main {
+  min-height: 100%;
 }
 
 a {
   color: #222;
+}
+
+h1 {
+  text-align: center;
 }
 
 h3 {
