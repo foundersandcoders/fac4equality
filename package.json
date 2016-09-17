@@ -12,6 +12,9 @@
     "startmon": "nodemon lib/index.js",
     "start": "node lib/index.js"
   },
+  "engines": {
+      "node": "6.2.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/foundersandcoders/fac4equality.git"
