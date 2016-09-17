@@ -31,6 +31,9 @@ h3 {
   .card.horizontal .card-image img {
     height: 250px; }
 
+.large.large {
+  height: 80vh; }
+  
 nav {
   background-color: #88C376 !important; }
 
