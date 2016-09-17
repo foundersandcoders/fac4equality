@@ -7,6 +7,14 @@ a {
 h3 {
   font-size: 2rem; }
 
+.landing-image-wrapper {
+  background-image: url(../assets/landingBG.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: fixed; }
+
 .card.horizontal .card-image {
   max-width: 33%; }
   .card.horizontal .card-image img {
@@ -14,5 +22,13 @@ h3 {
 
 .large.large {
   height: 80vh; }
+  
+nav {
+  background-color: #88C376 !important; }
+
+nav .brand-logo {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  padding-left: 2vw !important; }
 
 /*# sourceMappingURL=main.css.map */
