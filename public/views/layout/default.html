@@ -12,7 +12,10 @@
     <body>
         <div>
           {{> nav}}
-            {{{content}}}
+            <main class="container">
+              {{{content}}}
+            </main>
+          {{> footer}}
         </div>
         <script src="/static/public/js/script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
