@@ -21,9 +21,9 @@ CREATE SCHEMA IF NOT EXISTS `couch_safe` DEFAULT CHARACTER SET utf8 ;
 USE `couch_safe` ;
 
 -- -----------------------------------------------------
--- Table `couch_safe`.`USERS`
+-- Table `USERS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `couch_safe`.`USERS` (
+CREATE TABLE IF NOT EXISTS `USERS` (
   `user_id` INT(11) NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(100) NOT NULL,
   `profile_img` VARCHAR(100) NOT NULL,
@@ -35,9 +35,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `couch_safe`.`LISTINGS`
+-- Table `LISTINGS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `couch_safe`.`LISTINGS` (
+CREATE TABLE IF NOT EXISTS `LISTINGS` (
   `listing_id` INT(11) NOT NULL AUTO_INCREMENT,
   `user_id` INT(11) NOT NULL,
   `listing_img` VARCHAR(100) NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `couch_safe`.`LISTINGS` (
   INDEX `user_id_idx` (`user_id` ASC),
   CONSTRAINT `LISTINGS_user_id`
     FOREIGN KEY (`user_id`)
-    REFERENCES `couch_safe`.`USERS` (`user_id`)
+    REFERENCES `USERS` (`user_id`)
     ON DELETE NO ACTION
     ON UPDATE CASCADE)
 ENGINE = InnoDB
@@ -56,9 +56,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `couch_safe`.`RATINGS`
+-- Table `RATINGS`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `couch_safe`.`RATINGS` (
+CREATE TABLE IF NOT EXISTS `RATINGS` (
   `rating` INT(11) NOT NULL,
   `description` VARCHAR(45) NULL DEFAULT NULL,
   `listing_id` INT(11) NOT NULL,
@@ -68,13 +68,17 @@ CREATE TABLE IF NOT EXISTS `couch_safe`.`RATINGS` (
   INDEX `user_id_idx` (`user_id` ASC),
   CONSTRAINT `RATINGS_listing_id`
     FOREIGN KEY (`listing_id`)
-    REFERENCES `couch_safe`.`LISTINGS` (`listing_id`)
+    REFERENCES `LISTINGS` (`listing_id`)
     ON DELETE NO ACTION
     ON UPDATE CASCADE,
   CONSTRAINT `RATINGS_user_id`
     FOREIGN KEY (`user_id`)
-    REFERENCES `couch_safe`.`USERS` (`user_id`)
+    REFERENCES `USERS` (`user_id`)
     ON DELETE NO ACTION
     ON UPDATE CASCADE)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
