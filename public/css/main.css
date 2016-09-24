@@ -21,9 +21,30 @@ h3 {
   background-image: url(../assets/landingBG.png);
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
+  max-height: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.center-square {
+  width: 600px;
+  height: 400px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 13px 13px 13px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn.btn {
+  background-color: #EDEFED !important;
+  z-index: 4;
+  color: #437461 !important;
+  margin-top: 20%; }
 
 .card.horizontal .card-image {
   max-width: 33%; }
