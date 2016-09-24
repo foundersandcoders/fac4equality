@@ -61,7 +61,8 @@ p:first-of-type {
     height: 250px; }
 
 .large.large {
-  height: 80vh; }
+  height: 80vh;
+  margin-top: 3em; }
 
 .profile-img {
   border-radius: 100em;
