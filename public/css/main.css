@@ -92,6 +92,11 @@ p {
 
 .card .card-reveal {
   z-index: 4; }
+  .card .card-reveal h3 {
+    color: #88C376; }
+
+.card .card-image .card-title {
+  margin: 0; }
 
 #about {
   min-height: 70vh; }

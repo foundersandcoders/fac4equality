@@ -27,4 +27,11 @@
 
 .card .card-reveal {
   z-index: 4;
+  h3 {
+    color: $nav-bar-color;
+  }
+}
+
+.card .card-image .card-title {
+  margin: 0;
 }
