@@ -1,10 +1,9 @@
 <nav>
-    <div class="nav-wrapper">
-      <a href="/dashboard" class="brand-logo">Queer CouchSafe</a>
-      <!-- <a class="btn-nav waves-effect waves-light btn">contact us!</a> -->
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/create-listing">Create Listing</a></li>
-        <li><a href="/dahsboard">Browse Couches</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="nav-wrapper">
+    <a href="/dashboard" class="brand-logo">Queer CouchSafe</a>
+    {{> mobile-nav}}
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      {{> menu-items}}
+    </ul>
+  </div>
+</nav>
