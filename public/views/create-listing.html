@@ -1,9 +1,13 @@
-<h2>{{err}}</h2>
-<form action="/create-listing" method="POST">
-  <input type="text" name="email" placeholder="email" value="" required>
-  <input type="text" name="title" placeholder="title" value="" required>
-  <input type="text" name="listing_img" placeholder="listing_img" value="" required>
-  <input type="text" name="description" placeholder="description" value="" required>
-  <input type="text" name="availability" placeholder="availability" value="" required>
-  <button type="submit">Submit</button>
-</form>
+<div class='container'>
+  <h2>{{err}}</h2>
+  <form action="/create-listing" method="POST">
+    <input type="text" name="email" placeholder="email" value="" required>
+    <input type="text" name="title" placeholder="title" value="" required>
+    <input type="text" name="listing_img" placeholder="listing_img" value="" required>
+    <input type="text" name="description" placeholder="description" value="" required>
+    <input type="text" name="availability" placeholder="availability" value="" required>
+    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <i class="material-icons right">send</i>
+    </button>
+  </form>
+</div>

@@ -8,3 +8,19 @@ nav .brand-logo {
   font-size: 1.4rem !important;
   padding-left: 2vw !important;
 }
+
+.menu-btn {
+  padding: 0 1em;
+}
+
+.side-nav li {
+  border-bottom: 2px solid $nav-bar-color;
+}
+
+.side-nav a {
+  color: #fff;
+}
+
+.side-nav.right-aligned {
+  background-color: $nav-bar-color;
+}
