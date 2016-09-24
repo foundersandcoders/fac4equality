@@ -72,9 +72,8 @@ nav .brand-logo {
   padding-left: 2vw !important;
   font-weight: 200; }
 
-.btn-nav {
-  margin-top: 0;
-  background-color: #88C376; }
+.contact-btn {
+  padding-right: 1vw !important; }
 
 .heart {
   color: #fff;
