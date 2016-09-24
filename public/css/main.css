@@ -63,6 +63,10 @@ p:first-of-type {
 .large.large {
   height: 80vh; }
 
+.profile_img {
+  border-radius: 100em;
+  width: 11em; }
+
 nav {
   background-color: #88C376 !important; }
 

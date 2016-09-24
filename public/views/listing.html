@@ -2,10 +2,11 @@
   <div class="card large">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src={{listing.listing_img}}>
-      <span class="card-title">Come Stay!</span>
+      <span class="card-title">{{listing.title}}</span>
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">{{listing.title}}<i class="material-icons right">more_vert</i></span>
+      <img class="profile_img" src={{listing.profile_img}} alt="Profile Image" />
+      <p class="card-title activator grey-text text-darken-4">{{listing.description}}<i class="material-icons right">more_vert</i></p>
     </div>
     <div class="card-action">
       <a href="#">Get in touch!</a>
