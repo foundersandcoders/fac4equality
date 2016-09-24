@@ -25,15 +25,15 @@ USE `couch_safe` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `USERS` (
   `user_id` INT(11) NOT NULL AUTO_INCREMENT,
-  `email` VARCHAR(100) NOT NULL,
-  `profile_img` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(200) NOT NULL,
+  `profile_img` VARCHAR(200) NOT NULL,
   `user_type` ENUM('host', 'guest') NOT NULL,
-  `first_name` VARCHAR(100) NOT NULL,
-  `last_name` VARCHAR(100) NOT NULL,
-  `address` VARCHAR(100) NOT NULL,
-  `city` VARCHAR(100) NULL DEFAULT NULL,
-  `post_code` VARCHAR(100) NOT NULL,
-  `phone` VARCHAR(100) NULL DEFAULT NULL,
+  `first_name` VARCHAR(200) NOT NULL,
+  `last_name` VARCHAR(200) NOT NULL,
+  `address` VARCHAR(200) NOT NULL,
+  `city` VARCHAR(200) NULL DEFAULT NULL,
+  `post_code` VARCHAR(200) NOT NULL,
+  `phone` VARCHAR(200) NULL DEFAULT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE INDEX `email_UNIQUE` (`email` ASC))
 ENGINE = InnoDB
@@ -46,10 +46,10 @@ DEFAULT CHARACTER SET = utf8;
 CREATE TABLE IF NOT EXISTS `LISTINGS` (
   `listing_id` INT(11) NOT NULL AUTO_INCREMENT,
   `user_id` INT(11) NOT NULL,
-  `listing_img` VARCHAR(100) NOT NULL,
+  `listing_img` VARCHAR(200) NOT NULL,
   `description` MEDIUMTEXT NOT NULL,
   `availability` MEDIUMTEXT NOT NULL,
-  `title` VARCHAR(100) NOT NULL,
+  `title` VARCHAR(200) NOT NULL,
   PRIMARY KEY (`listing_id`),
   INDEX `user_id_idx` (`user_id` ASC),
   CONSTRAINT `LISTINGS_user_id`
