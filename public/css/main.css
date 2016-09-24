@@ -58,7 +58,8 @@ p:first-of-type {
 .card.horizontal .card-image {
   max-width: 33%; }
   .card.horizontal .card-image img {
-    height: 250px; }
+    height: 250px;
+    width: 50em; }
 
 .large.large {
   height: 80vh;
