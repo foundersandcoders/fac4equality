@@ -64,12 +64,23 @@ p:first-of-type {
   height: 80vh;
   margin-top: 3em; }
 
-.profile-img {
-  border-radius: 100em;
-  width: 11em; }
-
 .card .card-title.listing-title {
   font-size: 3em; }
+
+.card-content.details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%; }
+
+.profile-img {
+  width: 15em;
+  height: 15em; }
+
+.card-title.card-heading {
+  background-color: #88C376;
+  padding: 1em;
+  width: 100%; }
 
 nav {
   background-color: #88C376 !important; }
