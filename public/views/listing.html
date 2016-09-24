@@ -5,17 +5,27 @@
       <span class="card-title">{{listing.title}}</span>
     </div>
     <div class="card-content">
-      <img class="profile_img" src={{listing.profile_img}} alt="Profile Image" />
+      <img class="profile-img" src={{listing.profile_img}} alt="Profile Image" />
       <p class="card-title activator grey-text text-darken-4">{{listing.description}}<i class="material-icons right">more_vert</i></p>
     </div>
     <div class="card-action">
       <a href="#">Get in touch!</a>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>{{listing.description}}</p>
+      <p class="card-title grey-text text-darken-4 listing-title">{{listing.title}}<i class="material-icons right">close</i></p>
+      <h3>Host</h3>
+      <p>{{listing.first_name}} {{listing.last_name}}</p>
+      <h3>Contact</h3>
+      <p>{{listing.phone}}</p>
       <p>{{listing.email}}</p>
+      <h3>Accommodation</h3>
+      <p>{{listing.description}}</p>
+      <br />
+      <p>{{listing.address}}</p>
+      <p>{{listing.post_code}}</p>
       <p>{{listing.city}}</p>
+      <h3>Availability</h3>
+      <p>{{listing.availability}}</p>
     </div>
   </div>
 </section>
