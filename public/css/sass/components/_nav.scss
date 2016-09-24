@@ -3,10 +3,10 @@ nav {
 }
 
 nav .brand-logo {
-  font-family: $lato!important;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 1.4rem !important;
   padding-left: 2vw !important;
+  font-weight: 200;
 }
 
 .menu-btn {
@@ -22,5 +22,10 @@ nav .brand-logo {
 }
 
 .side-nav.right-aligned {
+  background-color: $nav-bar-color;
+}
+
+.btn-nav {
+  margin-top: 0;
   background-color: $nav-bar-color;
 }
