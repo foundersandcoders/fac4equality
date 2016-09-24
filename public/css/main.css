@@ -82,6 +82,9 @@ p:first-of-type {
   padding: 1em;
   width: 100%; }
 
+.card .card-reveal {
+  z-index: 4; }
+
 nav {
   background-color: #88C376 !important; }
 
