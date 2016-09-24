@@ -63,6 +63,10 @@ p:first-of-type {
 .large.large {
   height: 80vh; }
 
+.profile_img {
+  border-radius: 100em;
+  width: 11em; }
+
 nav {
   background-color: #88C376 !important; }
 
@@ -74,6 +78,22 @@ nav .brand-logo {
 
 .contact-btn {
   padding-right: 1vw !important; }
+
+.menu-btn {
+  padding: 0 1em; }
+
+.side-nav li {
+  border-bottom: 2px solid #88C376; }
+
+.side-nav a {
+  color: #fff; }
+
+.side-nav.right-aligned {
+  background-color: #88C376; }
+
+.btn-nav {
+  margin-top: 0;
+  background-color: #88C376; }
 
 .heart {
   color: #fff;

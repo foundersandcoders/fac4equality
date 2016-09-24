@@ -9,6 +9,27 @@ nav .brand-logo {
   font-weight: 200;
 }
 
-  .contact-btn {
-    padding-right: 1vw !important;
-  }
+.contact-btn {
+  padding-right: 1vw !important;
+}
+
+.menu-btn {
+  padding: 0 1em;
+}
+
+.side-nav li {
+  border-bottom: 2px solid $nav-bar-color;
+}
+
+.side-nav a {
+  color: #fff;
+}
+
+.side-nav.right-aligned {
+  background-color: $nav-bar-color;
+}
+
+.btn-nav {
+  margin-top: 0;
+  background-color: $nav-bar-color;
+}
