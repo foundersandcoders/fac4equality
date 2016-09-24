@@ -9,7 +9,23 @@ nav .brand-logo {
   font-weight: 200;
 }
 
-  .btn-nav {
-    margin-top: 0;
-    background-color: $nav-bar-color;
-  }
+.menu-btn {
+  padding: 0 1em;
+}
+
+.side-nav li {
+  border-bottom: 2px solid $nav-bar-color;
+}
+
+.side-nav a {
+  color: #fff;
+}
+
+.side-nav.right-aligned {
+  background-color: $nav-bar-color;
+}
+
+.btn-nav {
+  margin-top: 0;
+  background-color: $nav-bar-color;
+}
