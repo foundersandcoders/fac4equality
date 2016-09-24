@@ -25,14 +25,14 @@
   flex-direction: column;
 }
 
-p {
-color: $headers;
-font-size: 18px;
-margin: 0;
+.center-square p {
+  color: $headers;
+  font-size: 18px;
+  margin: 0;
 }
 
-p:first-of-type {
-font-size: 30px;
+.center-square p:first-of-type {
+  font-size: 30px;
 }
 
 .btn-listings {

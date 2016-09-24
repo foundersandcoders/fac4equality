@@ -1,16 +1,18 @@
-<h2>{{err}}</h2>
-<form action="/signup" method="POST">
-  <input type="text" name="first_name" placeholder="first_name" value="" required>
-  <input type="text" name="last_name" placeholder="last_name" value="" required>
-  <input type="email" name="email" placeholder="email" value="" required>
-  <input type="text" name="profile_img" placeholder="profile_img" value="" required>
-  <input type="text" name="phone" placeholder="phone" value="" required>
-  <input type="text" name="address" placeholder="address" value="" required>
-  <input type="text" name="city" placeholder="city" value="" required>
-  <input type="text" name="post_code" placeholder="post_code" value="" required>
-  <select name="user_type">
-    <option value="host"></option>
-    <option value="guest"></option>
-  </select>
-  <button type="submit">Submit</button>
-</form>
+<div class="container">
+  <h2>{{err}}</h2>
+  <form action="/signup" method="POST">
+    <input type="text" name="first_name" placeholder="first_name" value="" required>
+    <input type="text" name="last_name" placeholder="last_name" value="" required>
+    <input type="email" name="email" placeholder="email" value="" required>
+    <input type="text" name="profile_img" placeholder="profile_img" value="" required>
+    <input type="text" name="phone" placeholder="phone" value="" required>
+    <input type="text" name="address" placeholder="address" value="" required>
+    <input type="text" name="city" placeholder="city" value="" required>
+    <input type="text" name="post_code" placeholder="post_code" value="" required>
+    <select name="user_type">
+      <option value="host"></option>
+      <option value="guest"></option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+</div>

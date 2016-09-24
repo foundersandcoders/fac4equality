@@ -12,10 +12,17 @@ a {
   color: #222; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 1px; }
 
 h3 {
-  font-size: 2rem; }
+  font-size: 24px;
+  font-weight: 200; }
+
+p {
+  font-size: 18px; }
 
 .landing-image-wrapper {
   background-image: url(../assets/landingBG.png);
@@ -41,12 +48,12 @@ h3 {
   justify-content: center;
   flex-direction: column; }
 
-p {
+.center-square p {
   color: #437461;
   font-size: 18px;
   margin: 0; }
 
-p:first-of-type {
+.center-square p:first-of-type {
   font-size: 30px; }
 
 .btn-listings {
@@ -85,6 +92,25 @@ p:first-of-type {
 
 .card .card-reveal {
   z-index: 4; }
+  .card .card-reveal h3 {
+    color: #88C376; }
+
+.card .card-image .card-title {
+  margin: 0; }
+
+#about {
+  min-height: 70vh; }
+
+.btn-contact {
+  background-color: #88C376 !important;
+  color: #FAFAFA !important; }
+
+#contact {
+  min-height: 70vh; }
+
+#contact p {
+  text-align: center;
+  padding-bottom: 30px; }
 
 nav {
   background-color: #88C376 !important; }
@@ -95,7 +121,7 @@ nav .brand-logo {
   padding-left: 2vw !important;
   font-weight: 200; }
 
-.contact-btn {
+.about-btn {
   padding-right: 1vw !important; }
 
 .menu-btn {
