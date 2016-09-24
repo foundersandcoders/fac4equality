@@ -21,9 +21,39 @@ h3 {
   background-image: url(../assets/landingBG.png);
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
+  max-height: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.center-square {
+  width: 600px;
+  height: 400px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 13px 13px 13px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+p {
+  color: #437461;
+  font-size: 18px;
+  margin: 0; }
+
+p:first-of-type {
+  font-size: 30px; }
+
+.btn-listings {
+  background-color: #EDEFED !important;
+  z-index: 4;
+  color: #437461 !important;
+  margin-top: 15%; }
 
 .card.horizontal .card-image {
   max-width: 33%; }
@@ -37,10 +67,14 @@ nav {
   background-color: #88C376 !important; }
 
 nav .brand-logo {
-  font-family: "Lato", sans-serif !important;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 1.4rem !important;
-  padding-left: 2vw !important; }
+  padding-left: 2vw !important;
+  font-weight: 200; }
+
+.btn-nav {
+  margin-top: 0;
+  background-color: #88C376; }
 
 .heart {
   color: #fff;
