@@ -22,11 +22,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-.btn.btn {
+p {
+color: $headers;
+font-size: 18px;
+margin: 0;
+}
+
+p:first-of-type {
+font-size: 30px;
+}
+
+.btn-listings {
   background-color: $background-color-grey!important;
   z-index: 4;
   color: $headers!important;
-  margin-top: 20%;
+  margin-top: 15%;
 }
