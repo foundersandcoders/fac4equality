@@ -118,6 +118,13 @@ p {
   line-height: 1.2;
   margin-left: 20px; }
 
+@media (max-width: 500px) {
+  .card.horizontal .card-image {
+    max-width: 100%; } }
+
+.card.horizontal {
+  flex-wrap: wrap; }
+
 #about {
   min-height: 70vh; }
 
