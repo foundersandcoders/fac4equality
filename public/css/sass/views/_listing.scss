@@ -1,6 +1,18 @@
 .large.large {
-  height: 80vh;
+  height: 1000px;
   margin-top: 3em;
+
+  @media (max-width: 600px) {
+      height: 800px;
+  }
+}
+
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+    max-height: 100%;
+}
+
+.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+    overflow: visible;
 }
 
 .card .card-title.listing-title {
@@ -8,15 +20,21 @@
 }
 
 .card-content.details {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 100%;
+
+  @media (min-width: 1000px) {
+      flex-wrap: nowrap;
+  }
 }
 
 .profile-img {
   width: 10vh;
   height: 10vh;
+  margin: 20px;
 }
 
 .card-title.card-heading {
@@ -34,4 +52,10 @@
 
 .card .card-image .card-title {
   margin: 0;
+}
+
+.card .card-content .card-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 20px;
 }
